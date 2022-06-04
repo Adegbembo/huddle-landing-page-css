@@ -289,11 +289,11 @@ li {
     background-color: #fff;
 }
 
-.social-icon--white-bg .social-icon__link {
+.social-icon--white-bg .social-link {
     color: hsl(192, 100%, 9%);
 }
 
-.social-icon__link {
+.social-link {
     color: #fff;
 }
 
