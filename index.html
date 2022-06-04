@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f67f88cdef.js" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="logo-container">
+      <img src="images/icon-messages.svg" alt="">
+      <p>Huddle</p>
+    </div>
+    <a href="#" class="main-header__button">Try it Free</a>
+  </header>
+
+  <main class="main-container">
+    <section class="hero-section">
+      <h1>Build The Community Your Fans Will Love</h1>
+      <p>Huddle re-imagines the way we build communities. You have a voice, but so does
+        your audience. Create connections with your users as you engage in genuine discussion.</p>
+      <a href="#" class="button">Get Started For Free</a>
+    </section>
+
+    <section class="screen-mockup">
+      <img src="images/screen-mockups.svg" alt="">
+    </section>
+
+    <section class="stats">
+      <div class="stats__communities">
+        <img src="images/icon-communities.svg" alt="">
+        <p>1.4k+</p>
+        <p>Communities Formed</p>
+      </div>
+
+      <div class="stats__messages">
+        <img src="images/icon-messages.svg">
+        <p>2.7m+</p>
+        <p>Messages Sent</p>
+      </div>
+    </section>
+
+    <!--div to show wavy bg-->
+    <div class="blank-top-grow"></div>
+    <section class="feature  feature__grow feature__content-first">
+      <img src="images/illustration-grow-together.svg" alt="">
+      <div class="feature__content">
+        <h2> Grow Together</h2>
+        <p>Generate meaningful discussions with your audience and build a strong, loyal community.
+          Think of the insightful conversations you miss out on with a feedback form.</p>
+      </div>
+    </section>
+    <div class="blank-bottom-grow"></div>
+    <!--div to show wavy bg-->
+
+
+    <section class="feature">
+      <img src="images/illustration-flowing-conversation.svg" alt="">
+      <div class="feature__content">
+        <h2>Flowing Conversations</h2>
+        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+          just-in-time loading for a more natural flow.</p>
+      </div>
+    </section>
+
+    <!--div to show wavy bg-->
+    <div class="blank-top-your-users"></div>
+    <section class="feature feature__your-users feature__content-first">
+      <img src="images/illustration-your-users.svg" alt="">
+      <div class="feature__content">
+        <h2>Your Users</h2>
+        <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means,
+          once signed in to your app, your users can start chatting immediately.</p>
+      </div>
+    </section>
+    <div class="blank-bottom-your-users"></div>
+    <!--div to show wavy bg-->
+
+    <section class="registration">
+      <h2>Ready To Build Your Community?</h2>
+      <a href="#" class="button">Get Started For Free</a>
+    </section>
+  </main>
+
+  <!--wavy-bg-->
+  <div class="blank-top-footer"></div>
+  <footer>
+    <!--<p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>-->
+
+    <section class="newsletter">
+      <h3>Newsletter</h3>
+      <p>To receive tips on how to grow your community, sign up to our weekly newsletter. We'll never send you spam or
+        pass on your email address</p>
+      <div class="btn-right">
+        <input type="text">
+        <a href="#" class="newsletter__btn"> Subscribe</a>
+      </div>
+
+
+    </section>
+
+
+    <section class="contact">
+      <div class="contact__logo-container">
+        <img src="images/icon-messages.svg">
+        <p>Huddle</p>
+      </div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro sit libero atque temporibus obcaecati explicabo
+      </p>
+      <ul class="contact__lists">
+        <li class="contact__list"><i class="fa-solid fa-phone-volume"></i>Phone: +1-543-123-4567</li>
+        <li class="contact__list"><i class="fa-solid fa-envelope"></i>example@company.com</li>
+      </ul>
+
+      <ul class="social-icons">
+        <li class="social-icon social-icon--white-bg"><a href="#" class="social-icon__link social-icon__link--very-dark-cyan"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li class="social-icon"><a href="#" class="social-icon__link"><i class="fa-brands fa-instagram"></i></a></li>
+        <li class="social-icon social-icon--white-bg"><a href="#" class="social-icon__link social-icon__link--very-dark-cyan"><i class="fa-brands fa-twitter"></i></a></li>
+      </ul>
+    </section>
+  </footer>
+</body>
+
+</html>
