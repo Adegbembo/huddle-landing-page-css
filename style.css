@@ -289,12 +289,12 @@ li {
     background-color: #fff;
 }
 
-.social-icon__link {
-    color: #fff;
+.social-icon--white-bg .social-icon__link {
+    color: hsl(192, 100%, 9%);
 }
 
-.social-icon__link--very-dark-cyan {
-    color: hsl(192, 100%, 9%);
+.social-icon__link {
+    color: #fff;
 }
 
 .social-icon {
